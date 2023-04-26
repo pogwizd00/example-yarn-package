@@ -1,4 +1,4 @@
-FROM node:latest as first
+FROM node:current-alpine3.17 as first
 RUN apt-get update -y
 RUN apt install git -y
 RUN apt install curl
