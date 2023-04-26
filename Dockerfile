@@ -1,4 +1,4 @@
-FROM alpine:latest as first
+FROM node:latest as first
 RUN apt-get update -y
 RUN apt install git -y
 RUN apt install curl
